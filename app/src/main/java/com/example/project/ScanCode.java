@@ -33,6 +33,7 @@ public class ScanCode extends AppCompatActivity implements ZXingScannerView.Resu
         setResult(RESULT_OK, intent);
         finish();
     }
+    //json
     public JSONObject GenerateJson(Result result)
     {
         String resultScan = result.getText();
